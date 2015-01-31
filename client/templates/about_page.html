@@ -1,0 +1,9 @@
+<template name="aboutPage">
+
+	{{#unless kittyLoaded }}
+		Loading CAT!
+		{{>spinner}}
+	{{/unless}}
+
+	<img id="kitty" src="http://deelay.me/2000/http://i.telegraph.co.uk/multimedia/archive/02830/cat_2830677b.jpg">
+</template>
